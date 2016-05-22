@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=18B20.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\18B20 -TC:\CooCox\CoIDE\configuration\ProgramData\18B20/link.ld -g">
+      <target file="18B20.elf" lastModified="154929fd8ed">
+         <source file="..\obj\system_stm32f10x.o" lastModified="154903693af"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15490369414"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1549036950d"/>
+         <source file="..\obj\main.o" lastModified="154929fd4df"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15490369629"/>
+      </target>
+   </processor>
+</history>

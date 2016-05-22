@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\18B20\cmsis_boot -I..\..\..\workspace\18B20 -I..\..\..\workspace -I..\..\..\workspace\18B20\cmsis -I..\..\.. -I..\..\..\workspace\18B20\stm_lib -I..\..\..\workspace\18B20\stm_lib\inc">
+      <target file="stm32f10x_dma.o" lastModified="1548fa497cf">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="1548fa44b78"/>
+      </target>
+      <target file="onewire.o" lastModified="1548fa4973d">
+         <source file="..\..\..\onewire.c" lastModified="1548f9eff22"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1548fa40adf">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1548fa3cb3d"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\18B20\cmsis_boot -I..\..\..\workspace\18B20 -I..\..\..\workspace -I..\..\..\workspace\18B20\cmsis -I..\..\..\workspace\18B20\stm_lib -I..\..\..\workspace\18B20\stm_lib\inc">
+      <target file="stm32f10x_rcc.o" lastModified="15490369629">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="154902f7420"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15490369414">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="154902f7413"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="154903693af">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="154902f7418"/>
+      </target>
+      <target file="main.o" lastModified="154929fd4df">
+         <source file="..\..\..\main.c" lastModified="154929fbbf8"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1549036950d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="154902f740f"/>
+      </target>
+   </processor>
+</history>
